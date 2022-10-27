@@ -79,9 +79,9 @@ function App() {
                   horizontal
                   horizontalAlign="space-between"
                   verticalAlign="center"
-                  style={{ borderBottom: "1px solid white", padding: "8px 0" }}
+                  style={{ borderBottom: "1px solid white", padding: "8px 0", width: 300 }}
                 >
-                  <Stack>
+                  <Stack style={{alignItems: 'flex-start'}}>
                     <Text style={{ color: "white" }}>{item?.text}</Text>
                     <Text variant="small" style={{ color: "white" }}>
                       {displayDateAsString(item?.date)}
