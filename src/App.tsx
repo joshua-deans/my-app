@@ -81,7 +81,7 @@ function App() {
                   verticalAlign="center"
                   style={{ borderBottom: "1px solid white", padding: "8px 0" }}
                 >
-                  <Stack horizontalAlign="start">
+                  <Stack>
                     <Text style={{ color: "white" }}>{item?.text}</Text>
                     <Text variant="small" style={{ color: "white" }}>
                       {displayDateAsString(item?.date)}
